@@ -1,34 +1,32 @@
 <template>
   <div class="p-6 flex flex-col gap-6">
-    <div class="text-xl font-semibold">Hello World</div>
+    <div class="text-xl font-semibold">MASC Vue Component</div>
 
-    <SCard title="This is card data">
-      <div>
-        <p class="pb-4">Hello</p>
-        <SBtn class="px-10 btn-sm btn-primary rounded" @click="onClick"
-          >Test Notify</SBtn
-        >
-      </div>
-    </SCard>
+    <buttons />
+    <alert />
 
-    <SForms />
+    <dropdown />
+    <stable />
+
+    <smodal />
+    <sconfirm />
+
+    <sloading />
+    <sicon />
+
+    <sform />
   </div>
 </template>
 
 <script setup lang="ts">
-import { SBtn } from 'masc-vue';
-import { SCard, useNotify } from 'masc-vue';
-import SForms from './components/SForms.vue';
-const notify = useNotify();
+import sform from "./components/sform.vue";
+import buttons from "./components/buttons.vue";
+import alert from "./components/alert.vue";
+import dropdown from "./components/dropdown.vue";
+import stable from "./components/stable.vue";
 
-async function onClick() {
-  const yes = await notify.confirm(
-    'Please confirm if you would like to do this?'
-  );
-  if (yes) {
-    notify.success(`The response is confirmed`);
-  } else {
-    notify.warning(`User did not like it`);
-  }
-}
+import smodal from "./components/smodal.vue";
+import sloading from "./components/sloading.vue";
+import sicon from "./components/sicon.vue";
+import sconfirm from "./components/sconfirm.vue";
 </script>
