@@ -1,5 +1,5 @@
 <template>
-  <div class="p-6 flex flex-col gap-6">
+  <div class="container mx-auto grid gap-6 py-10">
     <div class="text-xl font-semibold">MASC Vue Component</div>
 
     <buttons />

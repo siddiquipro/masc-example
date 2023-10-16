@@ -45,11 +45,11 @@ const config = {
       required: true,
       type: "email",
     },
-    {
-      field: "search",
-      label: "This is label for type SEARCH",
-      type: "search",
-    },
+    // {
+    //   field: "search",
+    //   label: "This is label for type SEARCH",
+    //   type: "search",
+    // },
     {
       field: "textareab",
       label: "This is label for type TEXTAREA",
