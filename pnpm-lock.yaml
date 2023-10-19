@@ -12,8 +12,8 @@ dependencies:
     specifier: ^3.9.2
     version: 3.9.2
   masc-vue:
-    specifier: ^0.1.5
-    version: 0.1.5
+    specifier: ^0.1.9
+    version: 0.1.9
   vue:
     specifier: ^3.3.4
     version: 3.3.4
@@ -797,8 +797,8 @@ packages:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  /masc-vue@0.1.5:
-    resolution: {integrity: sha512-Cg+HGdOBo55vB9sxpbLi9tbi7TeVegM9S7J3tQgaTAjD3HewuriI9mRuU9CYtofBWSHAerJ84ut/bq9V/oBb1A==}
+  /masc-vue@0.1.9:
+    resolution: {integrity: sha512-LNhQT3cV8Tq3Fqv3bl2YtZleWrERFrnfMgDaEGrLnOJn0ZrhvS8iiJlQhPoA05z6V6yH8Cqfgyby6wAmrEJuNQ==}
     dependencies:
       '@iconify/vue': 4.1.1(vue@3.3.4)
       '@vueuse/core': 10.5.0(vue@3.3.4)
