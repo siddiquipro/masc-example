@@ -11,7 +11,7 @@
   "dependencies": {
     "@vicons/ionicons5": "^0.12.0",
     "daisyui": "^3.9.2",
-    "masc-vue": "^0.1.9",
+    "masc-vue": "^0.1.10",
     "vue": "^3.3.4"
   },
   "devDependencies": {
